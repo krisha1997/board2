@@ -1,0 +1,125 @@
+#main1 {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+#main1 div:nth-of-type(1) {flex-grow: 1;}
+#main3{
+  width: 60%;
+  height: 50px;
+  display: flex;
+}
+#main3 div:nth-of-type(1) {flex-grow: 1;}
+#main4{
+  width: 60%;
+  height: 70px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  color:#272724;
+}
+#main4 div:nth-of-type(1) {flex-grow: 1;}
+#main5{
+  width: 60%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+div.gallery {
+ /* margin: 20px 30px 20px 30px;*/
+  margin-top: 20px;
+  width: 150px;
+  height: 260px;
+  background-color:white;
+  
+}
+div.gallery img {  
+  width: 150px;
+  height: 100px;
+}
+div.desc {
+  text-align: center;
+}
+
+#main5 div:nth-of-type(1) {flex-grow: 1;}
+#main2{
+  width: 60%;
+  height: 250px;  
+  background-image: url(./flexpic.jpeg);
+  background-size: 60%;
+  text-align:center;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 70px;
+}
+.readbox {
+  background-color: #424242;
+ 
+  color: white;
+  padding:  10px 15px 10px ;
+  text-align: center;
+  display: inline-block;
+  font-size: 11px; 
+  border: 5 px white;
+}
+#main6{
+  width: 60%;
+  height: 140px;  
+  text-align:center;
+  color: #272724;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top:20px;
+}
+#main7{
+  width: 60%;
+  height: 200px;  
+  text-align:center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display:flex;
+}
+#b1{
+  width: 50%;
+  height: 200px;  
+  align-items:flex-start;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 174, 255);
+   color:white; 
+}
+#b2{
+  width: 50%;
+  height: 200px;  
+  align-items:flex-end;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(54, 54, 52);
+  color:white; 
+}
+#main8{
+  width: 60%;
+  height: 45px;  
+  text-align:center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-around;
+  display:flex;
+}
+#main9{
+  width: 60%;
+  height: 90px;  
+}
+a{
+  text-decoration: none;
+}
+.box{
+   text-align:center;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction:column;
+   margin: 90px auto;
+   width: 100%; 
+}
+body{
+  background-color: #272724;
+}
