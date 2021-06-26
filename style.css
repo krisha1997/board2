@@ -57,13 +57,13 @@ div.desc {
 }
 .readbox {
   background-color: #424242;
- 
+  
   color: white;
   padding:  10px 15px 10px ;
   text-align: center;
   display: inline-block;
   font-size: 11px; 
-  border: 5 px white;
+  border: 2px solid grey;
 }
 #main6{
   width: 60%;
@@ -98,7 +98,7 @@ div.desc {
 }
 #main8{
   width: 60%;
-  height: 45px;  
+  height: 40px;  
   text-align:center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-around;
@@ -106,7 +106,7 @@ div.desc {
 }
 #main9{
   width: 60%;
-  height: 90px;  
+  height: 75px;  
 }
 a{
   text-decoration: none;
